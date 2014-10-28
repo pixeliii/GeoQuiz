@@ -11,16 +11,19 @@ public class TrueFalse {
         mTruequestion = trueQuestion;
     }
 
-    public void getQuestion() {
+    public int getQuestion() {
+        return mQuestion;
 
     }
 
     public void setQuestion(int question) {
+        mQuestion = question;
 
 
     }
 
-    public void isTruequestion() {
+    public boolean isTrueQuestion() {
+        return mTruequestion;
 
     }
 
